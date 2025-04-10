@@ -1,0 +1,79 @@
+/* TodoApp.css */
+body{
+
+    background-image: linear-gradient(to bottom right, #8399a2, #eef2f3);
+}
+
+.todo-container {
+    width: 400px;
+    min-height: 400px;
+    margin: 130px auto;
+    background: #009691;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .todo-container h1 {
+    text-align: center;
+    color: #e1e1e1;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .todo-container input {
+    width: 80%;
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #beb7b7;
+    border-radius: 5px;
+  }
+  
+  .todo-container button {
+    padding: 8px 12px;
+    background: #d6d4d7;
+    color: rgb(7, 136, 89);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .todo-container button:hover{
+    background: #fffeff;
+  }
+  
+  .todo-container ul {
+    margin-top: 15px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .todo-container li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #d3deda;
+    border-radius: 5px;
+    color: #086d6a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+  }
+
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #ddd;
+    border-radius: 5px;
+  }
+  
+  .delete-icon {
+    color: #009691;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.2);
+  }
